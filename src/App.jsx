@@ -1,5 +1,5 @@
-import Home from "./Pages/home"
-import Nav from "./Pages/nav"
+
+import Nav from "./Pages/Nav"
 import Product from "./Pages/Product"
 import Mainroutes from "./routes/Mainroutes"
 import { ToastContainer } from 'react-toastify';
