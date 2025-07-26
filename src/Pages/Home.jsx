@@ -37,7 +37,7 @@ const Home = () => {
         <>
 
             <div className='h-full w-full'>
-                <div className={`${isNextHovered ? "opacity-0 pointer-events-none hidden" : "opacity-100 block"}  transition-opacity duration-300   w-full h-full bg-[url(./home-page/img2.avif)] relative -z-1 pb-4 md:pb-20 -top-20 `}>
+                <div className={`${isNextHovered ? "opacity-0 pointer-events-none hidden" : "opacity-100 block"}  transition-opacity duration-300   w-full h-full bg-[url(/home-page/img2.avif)] relative -z-1 pb-4 md:pb-20 -top-20 `}>
                     <div className='flex items-center justify-between md:pt-[12rem] pt-[17rem] bg-center text-white md:px-20 p-4 gap-[60px] md:gap-1 flex-col-reverse md:flex-row'>
                         <AnimatedContent
                             distance={300}
