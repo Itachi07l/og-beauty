@@ -8,7 +8,7 @@ import Login from '../Pages/Login';
 import Register from '../Pages/Register';
 import UserProfile from '../Pages/UserProfile';
 import AddToCart from '../Pages/AddToCart';
-import Order from '../Pages/order';
+import Order from '../Pages/Order';
 import About from '../Pages/About';
 import Footer from '../Pages/Footer';
 
