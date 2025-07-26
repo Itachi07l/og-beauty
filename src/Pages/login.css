@@ -1,0 +1,92 @@
+.glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 0px 0px rgba(255, 255, 255, 0);
+    top: -50rem;
+    right: 20%;
+}
+
+
+* {
+    color: black;
+}
+
+form {
+    background: rgb(0 0 0 / 20%);
+    padding: 14px 60px;
+    border-radius: 10px;
+    width: 740px;
+}
+
+form h1 {
+    font-size: 4.5rem;
+    color: #fff;
+    /* background: -webkit-linear-gradient(45deg, #2801fc, #311390, #ff0075 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    font-family: monospace;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+
+input {
+    outline: none;
+    border: none;
+    margin: 2px 0px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 28px;
+    border-bottom: 2px solid;
+
+}
+
+input[type=submit] {
+    border: none;
+    background-color: red;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+
+}
+
+input[type=submit]:hover {
+    border-radius: 20px;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(133, 9, 250);
+
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+
+input:active {
+    border: transparent;
+}
+
+label:hover,
+label:active {
+    font-size: 30px;
+    transition: all 0.2s ease-in;
+}
+
+.span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
