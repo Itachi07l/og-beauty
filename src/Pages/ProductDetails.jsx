@@ -1,6 +1,6 @@
 import { useNavigate, useParams } from 'react-router-dom'
 import Footer from './Footer'
-import InfiniteMenu from '../Components/infiniteMenu'
+import InfiniteMenu from '../Components/InfiniteMenu'
 
 const ProductDetails = ({ product }) => {
   const items = [
