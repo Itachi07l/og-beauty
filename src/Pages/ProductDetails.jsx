@@ -6,25 +6,25 @@ const ProductDetails = ({ product }) => {
   const items = [
     {
       image: '/product/img1.webp',
-      link: 'https:localhost:5173/product/1',
+      link: '/1',
       title: 'items 1',
       description: 'OG Luxury Extrait De Parfum Smokey Intense'
     },
     {
       image: '/product/img2.webp',
-      link: 'https:localhost:5173/product/2',
+      link: '/2',
       title: '',
       description: 'OG Luxury Extrait De Parfum Gallant Intense'
     },
     {
       image: '/product/img3.webp',
-      link: 'https:localhost:5173/product/3',
+      link: '/3',
       title: '',
       description: 'OG Luxury Extrait De Parfum Woody Intense'
     },
     {
       image: '/product/img4.webp',
-      link: 'https:localhost:5173/product/4',
+      link: '/product/4',
       title: '',
       description: 'OG BEAUTY Luxury Eau De Parfum Smokey'
     }
