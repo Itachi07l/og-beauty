@@ -66,16 +66,20 @@ const Footer = () => {
                 </div>
                 <div className='text-3xl tracking-tighter pl-10 mt-20 w-[32rem]'>
                     <p className='mb-3 '>
-                        <span className='inline-block border-b-2 border-orange-500 pb-0.5'>P</span>rivacy policy
+                        <a href="https://merchant.razorpay.com/policy/ROXLXq4ppgv2Pf/privacy">
+                        <span className='inline-block border-b-2 border-orange-500 pb-0.5'>"P</span>rivacy policy</a>
                     </p>
                     <p className='mb-3 '>
-                        <span className='inline-block border-b-2 border-orange-500 pb-0.5'>T</span>erms service
+                         <a href="https://merchant.razorpay.com/policy/ROXLXq4ppgv2Pf/terms">
+                        <span className='inline-block border-b-2 border-orange-500 pb-0.5'>T</span>erms service</a>
                     </p>
                     <p className='mb-3 '>
-                        <span className='inline-block border-b-2 border-orange-500 pb-0.5'>D</span>isclaimer
+                        <a href="https://merchant.razorpay.com/policy/ROXLXq4ppgv2Pf/refund">
+                        <span className='inline-block border-b-2 border-orange-500 pb-0.5'>R</span>efund Policy</a>
                     </p>
                     <p className='mb-3 '>
-                        <span className='inline-block border-b-2 border-orange-500 pb-0.5'>4</span>04
+                        <a href="https://merchant.razorpay.com/policy/ROXLXq4ppgv2Pf/shipping">
+                        <span className='inline-block border-b-2 border-orange-500 pb-0.5'>D</span>elivery</a>
                     </p>
                  
                 </div>
